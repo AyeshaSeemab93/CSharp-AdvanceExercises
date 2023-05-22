@@ -25,7 +25,7 @@ namespace Exercise003
             return this.capacity - this.balance;
         }
 
-        public void AddToWarehouse(int amount)
+        virtual public void AddToWarehouse(int amount)
         {
             if (amount < 0)
             {
@@ -37,24 +37,24 @@ namespace Exercise003
             }
             else
             {
-                this.balance = this.capacity;
+                this.balance = this.capacity; //warehouse is filled up and the rest is "thrown away".
             }
         }
 
-        public int TakeFromWarehouse(int amount)
+        virtual public int TakeFromWarehouse(int amount)
         {
             if (amount < 0)
             {
                 return 0;
             }
             if (amount > this.balance)
-            {
+            { //we get all there is to take and the warehouse is emptied.
                 int allThatWeCan = this.balance;
                 this.balance = 0;
                 return allThatWeCan;
             }
             this.balance -= amount;
-            return amount;
+            return amount;  // The method returns what we actually get.
         }
 
         public override string ToString()
