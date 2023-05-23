@@ -29,7 +29,6 @@ namespace Exercise004
             {
                 Item comparedItem = (Item)compared;
                 return this.name == comparedItem.name;
-
             }
         }
         public override int GetHashCode()
