@@ -66,3 +66,23 @@ checksum = '30cfb3b6d14721e533f0c8aa82f36baf'
 [exercises.part_09-008_animals]
 id = 204538
 checksum = '182b4778545faa47c08975d162282a28'
+
+[exercises.part_10-001_wage_order]
+id = 204543
+checksum = 'a7a5682d2515e78527dd42a01faa6181'
+
+[exercises.part_10-002_students_in_alphabetical_order]
+id = 204542
+checksum = '63ce80453299b83cf616303609587532'
+
+[exercises.part_10-003_literacy_comparison]
+id = 204544
+checksum = 'be61d07f7a89aa1cedb6edcf84fff34c'
+
+[exercises.part_10-004_regular_expressions_checker]
+id = 204545
+checksum = '4222364967a27d9ab924c09a64fe761b'
+
+[exercises.part_10-005_sort_them_cards]
+id = 204541
+checksum = 'f74e3173702f91fb1a6fbb9892701ef2'
