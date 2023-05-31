@@ -1,5 +1,9 @@
 ﻿namespace Exercise002
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text.RegularExpressions;
+    using System.Linq;
     public class Program
     {
         // DO NOT TOUCH THE CODE BELOW
