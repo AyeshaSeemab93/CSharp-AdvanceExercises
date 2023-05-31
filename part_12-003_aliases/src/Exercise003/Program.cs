@@ -1,14 +1,15 @@
 ﻿namespace Exercise003
 {
-  // Add "using Master = ..."
-  
-  // Do not touch the class below
-  public class Program
-  {
-    public static void Main(string[] args)
+    // creating alias
+    using Master = MasterProject.MasterClass;
+
+    public class Program
     {
-      Master Master = new Master();
-      Master.Master();
+        public static void Main(string[] args)
+        {
+            //using alias by making object of it
+            Master Master = new Master();
+            Master.Master();
+        }
     }
-  }
 }
