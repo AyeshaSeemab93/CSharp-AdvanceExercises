@@ -106,3 +106,19 @@ checksum = '00f8113aa069fe7c66fa6575a7869d50'
 [exercises.part_11-005_saveable_dictionary]
 id = 204529
 checksum = 'e2fb9f8b483ad3e47a73d811544c2736'
+
+[exercises.part_12-001_namespace_example]
+id = 204558
+checksum = 'dcfe13111689629d2e72afec2118b9b3'
+
+[exercises.part_12-002_using_directives]
+id = 204555
+checksum = 'a70835c8bd0d02684c5fc834a7b85dc6'
+
+[exercises.part_12-003_aliases]
+id = 204556
+checksum = '6d2348fe11977a50ec28a0dd491f7777'
+
+[exercises.part_12-004_using_streamwriter]
+id = 204557
+checksum = '4c2a58b61e771fbe638f9d91870a0188'
