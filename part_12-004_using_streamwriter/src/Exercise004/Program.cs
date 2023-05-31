@@ -5,11 +5,15 @@
     {
         public static void Main(string[] args)
         {
-            StreamWriter writer = new StreamWriter("file.txt");
-            writer.WriteLine("Hello file!"); //writes the string "Hello file!" and line change to the file
-            writer.WriteLine("More text");
-            writer.Write("And a little extra"); // writes the string "And a little extra" to the file without a line change
-            writer.Close(); // closes the file
+            //using statement, It makes object available for short time.When program is executed the StreamWriter object is destroyed itself.
+            // freeup space in memory
+            using (StreamWriter writer = new StreamWriter("file.txt"))
+            {
+                writer.WriteLine("Hello file!");
+                writer.WriteLine("More text");
+                writer.Write("And a little extra");
+            }
+            // writer.Close(); no need for it in using statement as it close files itself.
         }
     }
 }
